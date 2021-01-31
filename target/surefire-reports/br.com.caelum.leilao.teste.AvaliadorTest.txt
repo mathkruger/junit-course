@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: br.com.caelum.leilao.teste.AvaliadorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.55 s <<< FAILURE! - in br.com.caelum.leilao.teste.AvaliadorTest
+deveEncontrarOsTresMaioresLances(br.com.caelum.leilao.teste.AvaliadorTest)  Time elapsed: 0.079 s  <<< ERROR!
+java.lang.SecurityException: Prohibited package name: java.junitcourse.dominio
+	at br.com.caelum.leilao.teste.AvaliadorTest.deveEncontrarOsTresMaioresLances(AvaliadorTest.java:50)
+
+deveEntenderLancesEmOrdemCrescente(br.com.caelum.leilao.teste.AvaliadorTest)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.SecurityException: Prohibited package name: java.junitcourse.dominio
+	at br.com.caelum.leilao.teste.AvaliadorTest.deveEntenderLancesEmOrdemCrescente(AvaliadorTest.java:18)
+
+deveEntenderLeilaoComApenasUmLance(br.com.caelum.leilao.teste.AvaliadorTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.SecurityException: Prohibited package name: java.junitcourse.dominio
+	at br.com.caelum.leilao.teste.AvaliadorTest.deveEntenderLeilaoComApenasUmLance(AvaliadorTest.java:37)
+
